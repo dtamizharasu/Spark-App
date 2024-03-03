@@ -8,7 +8,7 @@ object SparkConfig {
   def sparkSession(): SparkSession = {
 
     PropertyConfigurator.configure("src//main//resources//log4j.properties")
-    //    System.setProperty("hadoop.home.dir", "C:\\Users\\dhta2003\\spark-3.3.1-bin-hadoop3")
+    //    System.setProperty("hadoop.home.dir", "C:\\Users\\spark-3.3.1-bin-hadoop3")
 
 
     val spark = SparkSession
